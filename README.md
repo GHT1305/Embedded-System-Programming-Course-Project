@@ -15,7 +15,7 @@ Design, simulate, and program a temperature data logging device for automobiles.
 - LM35 temperature sensor
 - Push buttons (system power on/off, start/stop recording)
 - LCD display
-- MicroSD card module[web:1]
+- MicroSD card module
 
 ## User Manual
 
