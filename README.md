@@ -7,7 +7,7 @@
 
 ## Project Objective
 
-Design, simulate, and program a temperature data logging device for automobiles. The system reads temperature from an LM35 sensor and logs the sampled data to a MicroSD card for later analysis[web:1].
+Design, simulate, and program a temperature data logging device for automobiles. The system reads temperature from an LM35 sensor and logs the sampled data to a MicroSD card for later analysis.
 
 ## Components Used
 
