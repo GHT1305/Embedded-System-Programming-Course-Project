@@ -8,20 +8,19 @@
 ## Project Objective
 
 Design, simulate, and implement an automatic temperature control system for automobiles.  
-The system measures the cabin temperature using a DS18B20 sensor and automatically controls a cooling fan based on a user‑defined set temperature shown on an LCD display.
+The system measures the cabin temperature using a DS18B20 sensor, STM32 microcontroller and automatically controls a cooling fan based on a user‑defined set temperature shown on an LCD display.
 
 ## Hardware Components
 
 - STM32F103C8T6 “Blue Pill” board  
 - DS18B20 digital temperature sensor (1‑Wire)  
-- 16x2 character LCD (HD44780 compatible)  
-- DC cooling fan with driver (transistor/MOSFET/relay)  
+- LCD 16x2  
+- DC cooling fan 
 - 3 push buttons:
-  - SET – enter/exit temperature setting mode
-  - UP – increase set temperature
-  - DOWN – decrease set temperature
-- Status LED (indicates fan state)  
-- Power supply and basic passive components (resistors, jumpers, etc.)
+  + SET – enter/exit temperature setting mode
+  + UP – increase set temperature
+  + DOWN – decrease set temperature
+- Status LED 
 
 ## System Features
 
