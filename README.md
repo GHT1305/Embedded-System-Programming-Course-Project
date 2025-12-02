@@ -22,10 +22,14 @@ The system measures the cabin temperature using a DS18B20 sensor, STM32 microcon
   + DOWN – decrease set temperature
 - Status LED 
 
+## Software Tools
+
+- STM32CubeIDE (Version 1.19.0)
+- Proteus (Version 8.17)
+
 ## System Features
 
-- On power‑up, the STM32 initializes the clock, GPIO, DS18B20 driver, and LCD.  
-- A welcome message is shown on the LCD and the LED blinks to indicate that the system has started successfully.
+- On power‑up, a welcome message is shown on the LCD and the LED blinks to indicate that the system has started successfully.
 - After initialization, the system enters display mode and shows temperature from the DS18B20 sensor, set temperature, and fan status 'ON / OFF'.
 - If the measured temperature "is higher than or equals the set temperature" → fan turns ON and the LED is ON. Otherwise, if the measured temperature "is lower than the set temperature" → fan turns OFF and the LED is OFF.
 - When the user presses the SET button in display mode, the system switches to “SET TEMPERATURE MODE”.  
