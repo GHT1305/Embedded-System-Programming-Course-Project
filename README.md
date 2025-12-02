@@ -36,5 +36,7 @@ The system measures the cabin temperature using a DS18B20 sensor, STM32 microcon
 - While in setting mode, user press 'UP / DOWN' button to increase or decrease the set temperaure by 1 °C.
 - Press SET again to: exit setting mode and return to display mode with the new set temperature.
 
-<img width="1360" height="640" alt="Screenshot 2025-12-02 105447" src="https://github.com/user-attachments/assets/1b2cd0b5-35bb-4553-9f83-79fd1b5e3bf3" />
+
+
+<img width="1462" height="691" alt="Screenshot 2025-12-02 110435" src="https://github.com/user-attachments/assets/91becaae-d1ab-4ec6-b7ac-efb52e9b22f2" />
 
