@@ -1,4 +1,4 @@
-# CAR ATC – Automatic Temperature Control
+# Designing an Automatic Temperature Control for Vehicle (ATC) - Final Project
 
 **Course:** Embedded System Programming (EE3031)  
 **Semester:** 1 – Academic year: 2025–2026  
