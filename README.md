@@ -27,25 +27,20 @@ The system measures the cabin temperature using a DS18B20 sensor, STM32 microcon
 ### Power‑up Behavior
 
 - On power‑up, the STM32 initializes the clock, GPIO, DS18B20 driver, and LCD.  
-- A splash screen with course code and student information is displayed, followed by a welcome screen “CAR ATC V1.0”.  
-- After initialization, the system enters normal run mode and shows temperature, set temperature, and fan status.
+- A welcome message is shown on the LCD and the LED blinks to indicate that the system has started successfully.
+- After initialization, the system enters display mode and shows temperature, set temperature, and fan status.
 
-### Normal Mode (Run Mode)
+### Display Mode
 
 - The microcontroller periodically reads the current temperature from the DS18B20 sensor.  
-- The LCD displays:
-  - Line 1: `TEMP   SET   FAN`
-  - Line 2: current temperature, set temperature, and fan status (`ON` or `OFF`).
+- The LCD displays: current temperature, set temperature, and fan status (`ON` or `OFF`).
 - Fan control logic:
-  - If measured temperature `temp >= temp_set` → fan turns ON and the LED is ON.
-  - If measured temperature `temp < temp_set` → fan turns OFF and the LED is OFF.
+  - If measured temperature 'is higher than or equals the set temperature' → fan turns ON and the LED is ON.
+  - If measured temperature 'is lower than the set temperature' → fan turns OFF and the LED is OFF.
 
 ### Setting Mode
 
-- When the user presses the SET button in normal mode, the system switches to “SET TEMP MODE”.  
-- The LCD shows:
-  - Line 1: `SET TEMP MODE`
-  - Line 2: the adjustable set temperature value.
+- When the user presses the SET button in display mode, the system switches to “SET TEMPERATURE MODE”.  
 - While in setting mode:
   - Press UP to increase `temp_set` by 1 °C.
   - Press DOWN to decrease `temp_set` by 1 °C.
