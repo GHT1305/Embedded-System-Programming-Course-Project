@@ -12,7 +12,7 @@ The system measures the cabin temperature using a DS18B20 sensor, STM32 microcon
 
 ## Hardware Components
 
-- STM32F103C8T6 “Blue Pill” board  
+- STM32F103C8T6 microcontroller
 - DS18B20 digital temperature sensor (1‑Wire)  
 - LCD 16x2  
 - DC cooling fan 
