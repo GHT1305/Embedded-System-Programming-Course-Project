@@ -5,6 +5,8 @@
 **Lecturer:** Bui Quoc Bao  
 **Student:** Tran Vu Gia Huy (ID: 2252267)
 
+<img width="1462" height="691" alt="Screenshot 2025-12-02 110435" src="https://github.com/user-attachments/assets/91becaae-d1ab-4ec6-b7ac-efb52e9b22f2" />
+
 ## Project Objective
 
 Design, simulate, and implement an automatic temperature control system for automobiles.  
@@ -35,8 +37,3 @@ The system measures the cabin temperature using a DS18B20 sensor, STM32 microcon
 - When the user presses the SET button in display mode, the system switches to “SET TEMPERATURE MODE”.  
 - While in setting mode, user press 'UP / DOWN' button to increase or decrease the set temperaure by 1 °C.
 - Press SET again to: exit setting mode and return to display mode with the new set temperature.
-
-
-
-<img width="1462" height="691" alt="Screenshot 2025-12-02 110435" src="https://github.com/user-attachments/assets/91becaae-d1ab-4ec6-b7ac-efb52e9b22f2" />
-
