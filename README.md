@@ -14,7 +14,11 @@ The system measures the cabin temperature using a DS18B20 sensor, STM32 microcon
 
 ## Hardware Components
 
+<<<<<<< HEAD
 - STM32F103C8T6 microcontroller 
+=======
+- STM32F103C8T6 microcontroller
+>>>>>>> c21f42636811103e3fdfbd2bacdfb14ffefb4f48
 - DS18B20 digital temperature sensor (1‑Wire)  
 - LCD 16x2  
 - DC cooling fan 
@@ -37,7 +41,10 @@ The system measures the cabin temperature using a DS18B20 sensor, STM32 microcon
 - When the user presses the SET button in display mode, the system switches to “SET TEMPERATURE MODE”.  
 - While in setting mode, user press 'UP / DOWN' button to increase or decrease the set temperaure by 1 °C.
 - Press SET again to: exit setting mode and return to display mode with the new set temperature.
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> c21f42636811103e3fdfbd2bacdfb14ffefb4f48
