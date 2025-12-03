@@ -1,9 +1,11 @@
-# Designing an Automatic Temperature Control for Vehicle (ATC) - Final Project
+# Designing a Thermostat for Cars - Final Project
 
 **Course:** Embedded System Programming (EE3031)  
 **Semester:** 1 – Academic year: 2025–2026  
 **Lecturer:** Bui Quoc Bao  
 **Student:** Tran Vu Gia Huy (ID: 2252267)
+
+<img width="1462" height="691" alt="Screenshot 2025-12-02 110435" src="https://github.com/user-attachments/assets/91becaae-d1ab-4ec6-b7ac-efb52e9b22f2" />
 
 ## Project Objective
 
@@ -12,7 +14,7 @@ The system measures the cabin temperature using a DS18B20 sensor, STM32 microcon
 
 ## Hardware Components
 
-- STM32F103C8T6 “Blue Pill” board  
+- STM32F103C8T6 microcontroller 
 - DS18B20 digital temperature sensor (1‑Wire)  
 - LCD 16x2  
 - DC cooling fan 
@@ -38,5 +40,4 @@ The system measures the cabin temperature using a DS18B20 sensor, STM32 microcon
 
 
 
-<img width="1462" height="691" alt="Screenshot 2025-12-02 110435" src="https://github.com/user-attachments/assets/91becaae-d1ab-4ec6-b7ac-efb52e9b22f2" />
 
