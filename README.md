@@ -40,6 +40,7 @@ The system measures the cabin temperature using a DS18B20 sensor, STM32 microcon
 
 ## Software Architechture
 
+undefined
 Thermostat_STM32_DS18B20/  
 ├── Core/  
 │ ├── Inc/  
@@ -56,6 +57,8 @@ Thermostat_STM32_DS18B20/
 │ ├── Driver Layer ← ds18b20.c + lcd.c (peripheral drivers)  
 │ └── Application Layer ← main.c (state machine + UI logic)  
 └── Debug # Simulation file (.hex) for Proteus  
+undefined
+
 
 ## State Machine
 
