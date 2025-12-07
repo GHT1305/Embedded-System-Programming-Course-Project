@@ -37,3 +37,34 @@ The system measures the cabin temperature using a DS18B20 sensor, STM32 microcon
 - When the user presses the SET button in display mode, the system switches to “SET TEMPERATURE MODE”.  
 - While in setting mode, user press 'UP / DOWN' button to increase or decrease the set temperaure by 1 °C.
 - Press SET again to: exit setting mode and return to display mode with the new set temperature.
+
+## Software Architechture
+
+Thermostat_STM32_DS18B20/
+├── Core/
+│ ├── Inc/
+│ │ ├── main.h # Pin definitions
+│ │ ├── ds18b20.h # DS18B20 driver header
+│ │ └── lcd.h # LCD 16x2 driver header
+│ └── Src/
+│ ├── main.c # Application logic
+│ ├── ds18b20.c # DS18B20 implementation
+│ ├── lcd.c # LCD driver
+│ └── system_stm32f1xx.c # System init
+├── Layer Architecture:
+│ ├── HAL Layer (STM32Cube) ← GPIO/Timer/SysTick drivers
+│ ├── Driver Layer ← ds18b20.c + lcd.c (peripheral drivers)
+│ └── Application Layer ← main.c (state machine + UI logic)
+└── Debug # Simulation file (.hex) for Proteus
+
+## State Machine
+
+[Power On] → [Welcome Screen] → [RUN Mode]
+↓
+[SET Button]
+↓
+[SETTING Mode] ←→ [UP/DOWN Buttons]
+↓
+[SET Button]
+↓
+[RUN Mode]
