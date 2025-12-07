@@ -62,12 +62,5 @@ Thermostat_STM32_DS18B20/
 
 ## State Machine
 
-[Power On] → [Welcome Screen] → [RUN Mode]  
-↓  
-[SET Button]  
-↓  
-[SETTING Mode] ←→ [UP/DOWN Buttons]  
-↓  
-[SET Button]  
-↓  
-[RUN Mode]  
+<img width="734" height="302" alt="StateMachine" src="https://github.com/user-attachments/assets/64e77245-518c-4b66-819b-ad817f471823" />
+
