@@ -5,7 +5,8 @@
 **Lecturer:** Bui Quoc Bao  
 **Student:** Tran Vu Gia Huy (ID: 2252267)
 
-<img width="1462" height="691" alt="Screenshot 2025-12-02 110435" src="https://github.com/user-attachments/assets/91becaae-d1ab-4ec6-b7ac-efb52e9b22f2" />
+<img width="1330" height="720" alt="Screenshot 2025-12-08 122957" src="https://github.com/user-attachments/assets/d52b97bd-96aa-441f-864e-039eca7c26e3" />
+
 
 ## Project Objective
 
