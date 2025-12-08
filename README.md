@@ -5,7 +5,8 @@
 **Lecturer:** Bui Quoc Bao  
 **Student:** Tran Vu Gia Huy (ID: 2252267)
 
-<img width="1462" height="691" alt="Screenshot 2025-12-02 110435" src="https://github.com/user-attachments/assets/91becaae-d1ab-4ec6-b7ac-efb52e9b22f2" />
+<img width="1330" height="720" alt="Screenshot 2025-12-08 122957" src="https://github.com/user-attachments/assets/d52b97bd-96aa-441f-864e-039eca7c26e3" />
+
 
 ## Project Objective
 
@@ -17,12 +18,13 @@ The system measures the cabin temperature using a DS18B20 sensor, STM32 microcon
 - STM32F103C8T6 microcontroller
 - DS18B20 digital temperature sensor (1‑Wire)  
 - LCD 16x2  
-- DC cooling fan 
+- DC cooling fan
 - 3 push buttons:
   + SET – enter/exit temperature setting mode
   + UP – increase set temperature
   + DOWN – decrease set temperature
-- Status LED 
+- Status LED
+- Resistor, Transistor, Flyback diode, etc...
 
 ## Software Tools
 
