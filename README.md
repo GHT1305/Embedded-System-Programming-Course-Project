@@ -18,12 +18,13 @@ The system measures the cabin temperature using a DS18B20 sensor, STM32 microcon
 - STM32F103C8T6 microcontroller
 - DS18B20 digital temperature sensor (1‑Wire)  
 - LCD 16x2  
-- DC cooling fan 
+- DC cooling fan
 - 3 push buttons:
   + SET – enter/exit temperature setting mode
   + UP – increase set temperature
   + DOWN – decrease set temperature
-- Status LED 
+- Status LED
+- Resistor, Transistor, Flyback diode, etc...
 
 ## Software Tools
 
