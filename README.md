@@ -66,4 +66,4 @@ Thermostat_STM32_DS18B20/
 
 ## Demo Video
 
-[Youtube Link](https://www.youtube.com/)
+[Youtube Link](https://youtu.be/TE3IlUvzKdI)
